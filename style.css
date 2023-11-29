@@ -1,8 +1,8 @@
 html, body {
   height: 100%;
   width: 100%;
-  margin: 0;
-  padding: 0;
+  
+  
   background-color: rgba(220,220,220);
   max-width: 1230px;
 
@@ -14,9 +14,7 @@ html, body {
  
   
 		}
-.home {
 
-}
 
    a {
 		  display: inline-block;
@@ -25,7 +23,6 @@ html, body {
 			color: #ffffff;
 			padding: 15px 25px;
 			transition: all 1s;
-      float: right!important;
       margin-top: 10px;
       box-sizing: border-box;	
 }
@@ -76,15 +73,29 @@ h2 {
   font-size: 45px;
 }
 
+#services{
+  font-size: 35px;
+  box-sizing: border-box;
+  padding: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 30px;
+  
+  
+}
 .flex{
   font-size: 15px;
   box-sizing: border-box;
   padding: 45px;
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: center;
   flex-direction: column;
   
+}
+#projects {
+  /* padding-left: 50%; */
 }
 
 
@@ -108,6 +119,7 @@ h2 {
   position: absolute;
   top: 0;
   left: 0;
+  width: 100%;
 }
 
 
@@ -117,7 +129,7 @@ h2 {
   display: grid;
   margin: 35px auto;
   margin-top: 30px;
-  padding: 20px 20px;
+  padding-left: 20px 20px;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 320px);
   grid-gap: 30px;
@@ -141,10 +153,10 @@ width: 31%;
 margin: 45px; 
 background: #fff;
   text-align: center;
- padding: 45px;
+ padding: 45px;}
 
     form {
-  background-color: #5ff0f2;
+  background-color: #d9eaeb;
   margin: 15px;
   max-width: 500px;
   padding: 15px;
@@ -158,13 +170,7 @@ input {
   box-sizing: border-box;
 }
 
-input[name=fistname] {
-  
-}
 
-input[name=lastname] {
-  
-}
   
 input[name=mail]{
   width: 55%;
